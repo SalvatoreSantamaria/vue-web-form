@@ -10,7 +10,6 @@ import Signupform from './components/signupform.vue'
 
 
 export default {
-  name: 'App',
   components: {
     Signupform
 

@@ -1,13 +1,27 @@
 <template>
-  <form>
-      <label>Email: </label>
-      <input type="email" required>
-  </form>
+    <div>
+        <form>
+            <label>Email: </label> 
+            <!-- Two way data binding one: v-model= will connect and update to the data property email -->
+            <input type="email" required v-model="email">
+
+            <label>Password: </label>
+            <input type="password" required v-model="password">
+
+        </form>
+        <p>Email: {{ email }}</p>
+        <p>Password: {{ password }}</p>
+    </div>
 </template>
 
 <script>
 export default {
-
+    data() {
+        return {
+            email: '', // Two way data binding two: data is updated by the v-model
+            password: ''
+        }
+    }
 }
 </script>
 
