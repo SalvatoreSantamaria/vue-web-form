@@ -1,3 +1,8 @@
+This course is from net ninja: 
+https://youtu.be/ixOcve5PX-Q
+Covers:
+ v-model for 2-way data binding, keyboard events & how to react to form submissions
+
 # vue-web-form
 
 ## Project setup
